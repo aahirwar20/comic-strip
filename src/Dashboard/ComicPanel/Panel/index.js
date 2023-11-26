@@ -17,7 +17,7 @@ const Panel = (props) => {
     return(<div className='panel'>
         <div 
            ref={bubbleRef}
-           className="speech_bubble handle"
+           className="speech_bubble"
         >
             {props.speech}
         </div>

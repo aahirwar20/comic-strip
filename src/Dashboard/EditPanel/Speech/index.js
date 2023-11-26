@@ -19,6 +19,8 @@ const Speech = (props) => {
   return (
     <>
       <Draggable
+        allowAnyClick ={ false}
+        nodeRef={bubbleRef}
         handle=".handle"
         bounds="parent"
         defaultPosition={props.speechCoordinate || { x: 0, y: 0 }}
@@ -27,11 +29,11 @@ const Speech = (props) => {
         }}
       >
         <div ref={bubbleRef} className="speech-bubble handle">
-        <textarea
-            className="speech_input"
-            value={props.speech}
-            onChange={props.handleSpeech}
-        ></textarea>
+            <textarea
+                className="speech_input"
+                value={props.speech}
+                onChange={props.handleSpeech}
+            ></textarea>
         </div>
       </Draggable>
     </>
