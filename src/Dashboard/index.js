@@ -6,7 +6,7 @@ import ComicPanel from "./ComicPanel/index.js";
 import './index.css'
 
 const Dashboard = () => {
-    const [comicImages, setComicImages] = useState(Array(10).fill('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLO26wTdHrwgJQNwWDM0TWzGlaQBpth6VVJw&usqp=CAU'));
+    const [comicImages, setComicImages] = useState(Array(10).fill(null));
     const [textInputs, setTextInputs] = useState(Array(10).fill(''));
     const [speechInputs, setSpeechInputs] = useState(Array(10).fill(''));
     const [speechCoordinate, setSpeechCoordinate] = useState(Array(10).fill({x:10,y:10}));
