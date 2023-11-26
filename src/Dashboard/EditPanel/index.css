@@ -1,0 +1,15 @@
+.edit_image{
+    width: 340px;
+    height: 340px;
+}
+
+.edit_panel{
+    width: 50%;
+    position: relative;
+    width: 340px;
+    height: fit-content;
+    margin: auto;
+    align-items: center;
+    justify-items: center;
+    
+}

@@ -1,0 +1,26 @@
+img{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin :5px
+}
+.selected{
+    border: 2px black solid;
+    height: 130px;
+    width: 130px;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.new_panel{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin :5px;
+}
+.add_icon{
+    position: relative;
+    margin: auto;
+    padding: 35%;
+    background-color: rgb(240, 240, 240);
+}

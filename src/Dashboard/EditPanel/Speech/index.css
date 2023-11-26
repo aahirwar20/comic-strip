@@ -1,0 +1,25 @@
+/* TextInput.css */
+.text-input-container {
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  .speech-bubble {
+    position: absolute;
+    background-color: rgb(233, 231, 231);
+    border-radius: 5px;
+    border: 2px black solid;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    overflow: hidden;
+  }
+  
+  .handle {
+    cursor: move;
+  }
+
+  .speech_input{
+    background-color: rgb(233, 231, 231);
+    max-width: 200px;
+  }
+  

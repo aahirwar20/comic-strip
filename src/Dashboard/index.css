@@ -1,0 +1,36 @@
+.Dashboard{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Left-layout{
+    position: relative;
+    margin: 20px;
+    width: 100%;
+    height: fit-content;
+}
+.Right-layout{
+    position: relative;
+    margin: 20px;
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .Dashboard{
+        flex-direction: row;
+    }
+    .Left-layout{
+        width: 40%;
+    }
+    .Right-layout{
+       width: 50%;
+    }
+}
+

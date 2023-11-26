@@ -1,0 +1,26 @@
+
+.text-input{
+    position: relative;
+    margin: auto;
+    width: 80%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-input-area{
+    position: relative;
+    height: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: large;
+}
+
+.text-input-button{
+    position: relative;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: black;
+    color: aliceblue;
+}

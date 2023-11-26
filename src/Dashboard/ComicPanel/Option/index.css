@@ -1,0 +1,13 @@
+.icon_bar{
+    position: relative;
+    height: 35px;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+.icon_bar svg {
+    width: 27px; /* Adjust the icon width as needed */
+    height: 27px; /* Adjust the icon height as needed */
+    margin-right: 10px; /* Add right margin for spacing */
+  }
