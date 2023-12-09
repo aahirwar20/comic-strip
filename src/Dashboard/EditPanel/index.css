@@ -1,12 +1,12 @@
 .edit_image{
-    width: 340px;
-    height: 340px;
+    width: 320px;
+    height: 320px;
 }
 
 .edit_panel{
     width: 50%;
     position: relative;
-    width: 340px;
+    width: 320px;
     height: fit-content;
     margin: auto;
     align-items: center;
